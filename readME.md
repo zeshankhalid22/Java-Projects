@@ -25,15 +25,13 @@ Before running this project, you need to set up the following:
 
 2. **Database Table**: You need to create a table in your PostgreSQL database to store user information. Here's the SQL command to create the table:
 
-    ```sql
+```sql
 CREATE TABLE users (
     username VARCHAR(50) UNIQUE NOT NULL PRIMARY KEY,
     password VARCHAR(50) NOT NULL,
     email VARCHAR(50) UNIQUE NOT NULL
 );
-    ```
-
-    Run this command in your PostgreSQL command line or GUI tool.
+```
 
 3. **Database Configuration**: The project needs to connect to your PostgreSQL database. You should use your own username and password to authenticate with PostgreSQL. Update the database configuration in the project with your PostgreSQL username and password.
 
