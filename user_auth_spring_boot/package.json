@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  },
+  "scripts": {
+    "build:css": "tailwindcss -i src/main/resources/static/css/input.css -o src/main/resources/static/css/output.css",
+    "watch:css": "tailwindcss -i src/main/resources/static/css/input.css -o src/main/resources/static/css/output.css --watch"
+  },
+  "dependencies": {
+    "flowbite": "^2.4.1"
+  }
+}

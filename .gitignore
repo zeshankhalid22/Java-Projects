@@ -12,3 +12,8 @@ target/
 *.iml
 *.ipr
 
+/.idea
+/.idea
+/user_auth_spring_boot/node_modules
+*.xml
+/.idea
